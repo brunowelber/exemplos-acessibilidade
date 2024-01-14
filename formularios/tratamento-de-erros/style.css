@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+input[type="radio"],
+input[type="checkbox"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.erro {
+  color: #ff0000;
+  display: none;
+  font-size: 0.8em;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+#errorSummary {
+  background-color: #ffdede;
+  border: 1px solid #ff5f5f;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #d8000c;
+}
+
+#errorSummary h3 {
+  margin-top: 0;
+}
+
+#errorSummary ul {
+  list-style: none;
+  padding: 0;
+}
+
+#errorSummary ul li a {
+  color: #d8000c;
+  text-decoration: underline;
+}
+
+#errorSummary ul li a:hover,
+#errorSummary ul li a:focus {
+  color: #a80000;
+  text-decoration: none;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #0056b3; 
+text-align: center;
+margin-bottom: 20px; / Espaçamento para separar do conteúdo abaixo */
+}
+
+p {
+font-family: Arial, sans-serif;
+font-size: 16px;
+color: #333; /* Cor escura para boa leitura */
+text-align: center;
+margin-bottom: 15px;
+}
+
+p span {
+color: #d8000c; 
+}
